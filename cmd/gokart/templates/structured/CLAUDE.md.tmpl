@@ -1,0 +1,40 @@
+{{- if .UseGlobal -}}
+# CLAUDE.md
+
+## Global CLI Tool
+
+This is a **global CLI tool** installed system-wide.
+
+| Path | Purpose |
+|------|---------|
+| `~/.config/{{.Name}}/config.yaml` | User settings |
+| `~/.config/{{.Name}}/state.json` | Runtime state |
+
+### Build & Install
+
+```bash
+go build -o {{.Name}} ./cmd
+
+# Option 1: Standard install
+go install ./cmd
+
+# Option 2: Symlink (keeps binary in project, linked to ~/go/bin)
+ln -sf "$(pwd)/{{.Name}}" ~/go/bin/{{.Name}}
+```
+
+### Config Loading
+
+Config is loaded from (in order):
+1. `./config.yaml` (current directory)
+2. `~/.config/{{.Name}}/config.yaml`
+3. `/etc/{{.Name}}/config.yaml`
+4. Environment variables (prefix: `{{.Name | upper}}_`)
+
+### State Persistence
+
+Use `gokart.SaveState`/`gokart.LoadState` for data that persists between runs:
+```go
+gokart.SaveState("{{.Name}}", "state.json", myState)
+state, _ := gokart.LoadState[MyState]("{{.Name}}", "state.json")
+```
+{{- end -}}
