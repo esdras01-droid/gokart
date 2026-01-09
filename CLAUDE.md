@@ -23,8 +23,9 @@ Scaffolds new CLI projects:
 gokart new mycli                    # Structured (default)
 gokart new mycli --flat             # Single main.go
 gokart new mycli --sqlite           # With SQLite wiring
-gokart new mycli --ai               # With OpenAI client
-gokart new mycli --sqlite --ai      # Both
+gokart new mycli --postgres         # With PostgreSQL wiring
+gokart new mycli --ai               # With OpenAI client (v3)
+gokart new mycli --postgres --ai    # Full stack
 ```
 
 ### Main Package (`gokart`)
@@ -34,6 +35,7 @@ gokart new mycli --sqlite --ai      # Both
 | `log.go` | Logger | `log/slog` |
 | `config.go` | Config | `spf13/viper` |
 | `httpserver.go` | Router | `go-chi/chi/v5` |
+| `server.go` | Server | stdlib `net/http` (graceful shutdown) |
 | `httpclient.go` | HTTP Client | `hashicorp/go-retryablehttp` |
 | `validate.go` | Validator | `go-playground/validator/v10` |
 | `postgres.go` | PostgreSQL | `jackc/pgx/v5` |
@@ -42,6 +44,8 @@ gokart new mycli --sqlite --ai      # Both
 | `cache.go` | Cache | `redis/go-redis/v9` |
 | `migrate.go` | Migrations | `pressly/goose/v3` |
 | `state.go` | State Persistence | `encoding/json` (stdlib) |
+| `openai.go` | OpenAI | `openai/openai-go/v3` |
+| `response.go` | Response Helpers | stdlib `net/http` + `encoding/json` |
 
 ### CLI Subpackage (`gokart/cli`)
 
