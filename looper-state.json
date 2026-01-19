@@ -223,13 +223,17 @@
     },
     {
       "id": "us-21",
-      "passes": false,
-      "attempts": 1
+      "passes": true,
+      "attempts": 1,
+      "pass_history": [
+        true
+      ],
+      "commit_hash": "68233f2"
     },
     {
       "id": "us-22",
       "passes": false,
-      "attempts": 0
+      "attempts": 1
     },
     {
       "id": "us-23",
@@ -279,10 +283,10 @@
     ]
   },
   "metrics": {
-    "total_iterations": 31,
-    "total_successes": 18,
-    "total_failures": 31,
-    "last_run": "2026-01-18T23:49:51.771614-05:00"
+    "total_iterations": 32,
+    "total_successes": 19,
+    "total_failures": 32,
+    "last_run": "2026-01-18T23:53:44.979798-05:00"
   },
   "reflection_context": {
     "iteration": 6,
